@@ -1,0 +1,27 @@
+body{
+	color: blue;
+	font-family: arial;
+	font-size: 12pt;
+}
+h1{
+	color: green;
+	font-family: Verdana;
+	text-decoration: underline;
+}
+h3{
+	color: purple;
+	font-style: italic;
+	font-family: comic sans;
+}
+p{
+	color: black;
+	font-family: arial;
+}
+#id{
+	color: blue;
+	font-family: Verdana;
+}
+.classA{
+	color: grey;
+	font-family: Tahoma;
+}

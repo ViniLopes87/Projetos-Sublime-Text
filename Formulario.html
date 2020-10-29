@@ -1,0 +1,91 @@
+<html>
+<head>
+	<title>Formulário</title>
+</head>
+<body>
+
+<header>
+	<h1>Curso HTML</h1>
+</header>
+
+<nav></nav>
+
+<section>
+	<form><method="post" action="#" enctype="multipart/form-data">
+	<fieldset>
+		<legend>Dados pessoais:</legend>
+		Nome: <input type="text" name="nome" placeholder="Informe o seu nome" disabled>
+		<br>
+		Sobrenome: <input type="text" name="nome" placeholder="Informe o seu nome" value="Lopes" required readonly>
+		<br>
+		CPF: <input type="text" name="cpf" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}">
+		<br>
+		Data de Nascimento: <input type="date" name="data">
+		<br>
+		Email: <input type="email" name="email">
+		<br>
+	</fieldset>
+		Senha: <input type="password" name="senha">
+		<br>
+		Descrição: <textarea name="descricao"></textarea>
+		<br>
+		<label for="endereco">Endereço:</label>
+		<textarea id="endereco" name="endereco">Rua real da torre, 1400</textarea>
+		<br>
+		Qual curso você vai fazer?
+		<br>
+		<input type="checkbox" name="html" value="1" checked>HTML
+		<br>
+		<input type="checkbox" name="css" value="1">CSS
+		<br>
+		<input type="checkbox" name="javascript" value="1">JavaScript
+		<br>
+		Qual matéria você prefere?
+		<br>
+		<input type="radio" name="materia" value="matematica" checked>Matemática
+		<br>
+		<input type="radio" name="materia" value="historia">História
+		<br>
+		<input type="radio" name="materia" value="fisica">Fisíca
+		<br>
+		Qual o estado que você reside?
+		<br>
+		<select name="estado">
+			<option value="pernambuco">Pernambuco</option>
+			<option value="acre">Acre</option>
+			<option value="paraiba">Paraíba</option>
+			<option value="bahia">Bahia</option>
+			<option value="maceio">Maceió</option>
+		</select>
+		<br>
+		<input type="range" name="faixa">
+		<br>
+		Escolha sua cor para o perfil:
+		<br>
+		<input type="color" name="cor">
+		<br>
+		Escolha seu time de futebol:
+		<br>
+		<input list="times" name="time">
+		  <datalist id="times">
+		  	<option value="Sport">
+		    <option value="Santa Cruz">
+		    <option value="Naútico">
+		    <option value="Palmeiras">
+		    <option value="São Paulo">
+		    <option value="Santos">
+		    <option value="Treze-PB">
+		    <option value="Barcelona">
+		    <option value="Barcelona do Equador"> 
+	      </datalist>
+		<br>
+		<input type="hidden" name="id" value="123">
+		<br>
+		<input type="file" name="arquivo"> 
+		<br>
+		<button type="submit">Enviar</button>
+	</form>
+</section>
+
+</body>
+</html>

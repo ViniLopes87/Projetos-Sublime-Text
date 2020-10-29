@@ -1,0 +1,97 @@
+body{
+		color: green;
+		font-family: Verdana,Times,Tahoma;
+		font-size: 50px;
+		font-weight: bold;
+}
+#id1{
+	color: red;
+	font-family: Times;
+	font-size: 30px;
+	text-shadow: blue 5px 6px 2px;
+}
+.class1{
+	color: blue;
+	font-family: Tahoma;
+	font-size: 15px;
+	white-space: nowrap; /* Não permite quebra de linha */
+}
+p{
+	font-family: sans-serif;
+	font-size: 12pt;
+	text-indent: 30pt;
+	text-transform: capitalize;
+}
+.class2{
+	font-style: italic;
+}
+#id2{
+	font-family: Arial;
+	color: pink;
+	word-spacing: 0.5em;
+}
+p.class1{
+	color: red;
+	letter-spacing: 0.5em;
+	text-align: justify;
+}
+.inferior{
+	text-decoration: underline;
+}
+.superior{
+	text-decoration: overline;
+}
+.centro{
+	text-decoration: line-through;
+}
+.piscando{
+	text-decoration: blink;
+}
+h1{
+	font-family: sans-serif;
+	font-size: 16pt;
+	font-weight: bold;
+	color: red;
+}
+ul{
+	font-family: arial;
+	font-size: 13pt;
+	list-style-image: url(bolo.png);
+	list-style-position: inside;
+}
+ul#id10{
+	font-family: arial;
+	font-size: 13pt;
+	color: blue;
+}
+ul#id20{
+	font-family: arial;
+	font-size: 13pt;
+	color: purple;
+	list-style-type: lower-alpha;
+}
+.doce{
+	list-style-image: url(bolo.png);
+}
+.lanche{
+	list-style-image: url(sanduba.png);
+}
+.fruta{
+	list-style-image: url(morango.png);
+}
+a:link{
+	color: blue;
+	background-color: green;
+}
+a:visited{
+	color: red;
+	background-color: yellow;
+}
+a:hover{
+	color: green;
+	background-color: red;
+}
+a:active{
+	color: grey;
+	background-color: #ff704D;
+}
